@@ -2,8 +2,8 @@ import os
 import sys
 
 
-print(os.getcwd())
-print(os.listdir())
+if not os.path.isdir("files"):
+    os.system("git clone https://github.com/chengfeng30121/tuchuang.git -d files")
 sys.path.append(os.path.join(os.getcwd(), "api"))
 
 
@@ -71,8 +71,8 @@ def contents_page(path: str):
 
 @app.route('/')
 def index():
-    # return generate_html(tools.get_real_filename(""))
-    return str(os.listdir())
+    return generate_html(tools.get_real_filename(""))
+    # return str(os.listdir())
 
 @app.route("/favicon.ico")
 def favicon():
