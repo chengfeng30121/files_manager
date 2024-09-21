@@ -1,7 +1,10 @@
 import os
 import sys
 
-sys.path.join(os.path.join(os.getcwd(), "api"))
+
+print(os.getcwd())
+print(os.listdir())
+sys.path.append(os.path.join(os.getcwd(), "api"))
 
 
 from flask import *
