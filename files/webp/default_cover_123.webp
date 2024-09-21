@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Error>
+	<Code>NoSuchKey</Code>
+	<Message>The specified key does not exist.</Message>
+	<Resource>/2023/04/20/default_cover_123.webp</Resource>
+	<RequestId>NjRhZmJlNjhfODUzMjE2MGJfMTU2MDhfNmFhNTk=</RequestId>
+	<TraceId>OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODc0OWRkZjk0ZDM1NmI1M2E2MTRlY2MzZDhmNmI5MWI1OTVhZmNjOGRhMDFhODRkMDI4YmJmYmQyZDI5OGM4MzJlNmQ5YWY3NjM5YjIxZDg3ZDZjNTY4MzI4NDlkMmVjODg=</TraceId>
+</Error>
+

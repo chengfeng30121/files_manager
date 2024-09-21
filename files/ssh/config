@@ -1,0 +1,9 @@
+Host line1
+HostName 116.211.143.77
+User user
+Port 10532
+
+Host line2
+HostName frpc.cf3012.eu.org
+User user
+Port 13171
