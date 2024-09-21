@@ -1,5 +1,6 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
-  ]
+  ],
+  "installCommand": "mkdir -p /var/tasks/files && cd /var/tasks/files && git clone https://github.com/chengfeng30121/tuchuang.git && cd tuchuang && rm -rfv .git && mv * .. && cd .. && rm -rfv tuchuang"
 }
