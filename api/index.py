@@ -1,3 +1,9 @@
+import os
+import sys
+
+sys.path.join(os.path.join(os.getcwd(), "api"))
+
+
 from flask import *
 from mkhtml import generate_html_template as generate_html
 from urllib.parse import quote
