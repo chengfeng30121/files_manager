@@ -71,7 +71,8 @@ def contents_page(path: str):
 
 @app.route('/')
 def index():
-    return generate_html(tools.get_real_filename(""))
+    # return generate_html(tools.get_real_filename(""))
+    return str(os.listdir())
 
 @app.route("/favicon.ico")
 def favicon():
